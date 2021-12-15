@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="_css/judo.css">
+</head>
+
+<body>
+    <h1> Video - Judo 2 - Hifumi Abe</h1>
+    <video id="playerCustomizado" width="400" controls poster="_imagem/abe.png">
+        <source src="_VIDEO/judo Abe.mp4">
+    </video>
+    
+    <div>
+        <button onclick="playpause()" type="button" class="button"> Play/Pause</button>
+        <button onclick="Ampliar()" type="button" class="button"> Ampliar</button>
+        <button onclick="Reduzir()" type="button" class="button"> Reduzir</button>
+        <button onclick="Telacheia()" type="button" class="button"> Tela Cheia</button>
+        <button onclick="Tamanhonormal()" type="button" class="button"> Tamanho Normal</button>
+        <button onclick="Volumemais()" type="button" class="button"> Volume +</button>
+        <button onclick="Volumemenos()" type="button" class="button"> Volume -</button>
+        <button onclick="Mute()" type="button" class="button"> Mute</button>
+    </div>
+
+    <script src="_javascript/player.js"></script>
+</body>
+</html>

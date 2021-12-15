@@ -1,0 +1,9 @@
+body{
+    background-color: aqua;
+    display:grid;
+    place-items: center;
+}
+
+.button{
+    background-color: burlywood;
+}
